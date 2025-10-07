@@ -1,0 +1,11 @@
+flask
+langchain
+chromadb
+sentence-transformers
+transformers
+torch
+openai
+langchain_huggingface 
+werkzeug
+langchain_community
+langchain_perplexity
