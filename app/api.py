@@ -39,5 +39,7 @@ def query():
     sources = [{"page_content": d.page_content, "metadata": getattr(d, "metadata", {})} for d in result.get("source_documents", [])]
     return jsonify({"answer": result.get("result"), "sources": sources})
 
+PORT = int(os.environ.get("PORT", 5000))
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 7860)), debug=False)
+     app.run(host="0.0.0.0", port=PORT)
