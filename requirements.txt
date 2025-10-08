@@ -9,3 +9,4 @@ langchain_huggingface
 werkzeug
 langchain_community
 langchain_perplexity
+pypdf
