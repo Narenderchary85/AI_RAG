@@ -10,3 +10,4 @@ werkzeug
 langchain_community
 langchain_perplexity
 pypdf
+flask_cors
